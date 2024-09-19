@@ -1,0 +1,288 @@
+#conta {
+  padding: 10px;
+  margin-right: 10px;
+  font-family: serif;
+  font-style: bold;
+}
+
+#inicio {
+  padding: 10px;
+}
+
+.con {
+  background-color: #769DCB;
+  border-radius: 8px;
+
+}
+
+.cadlogin {
+  margin: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 300px;
+  background-color: #769DCB;
+  position: fixed;
+  z-index: 100;
+  font-family: ;
+}
+
+.f {
+  margin: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 200px;
+  background-color: #769DCB;
+  position: fixed;
+  z-index: 200;
+}
+
+.cad {
+  margin: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 100px;
+  background-color: #769DCB;
+  border-color: #1B41C7;
+  position: fixed;
+  z-index: 300;
+}
+
+.locadastro {
+  margin: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 300px;
+  background-color: #769DCB;
+  position: fixed;
+  z-index: 100;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--white);
+  border: 0;
+  background: none;
+  font-family: --apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html,
+body,
+#root {
+  max-height: 100vh;
+  max-width: 100vw;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background: var(--dark);
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  background: #C6E7FF;
+  border-radius: 10px;
+}
+
+.container h1 {
+  text-align: right;
+  font-size: 60px;
+  margin-right: 100px;
+  padding-top: 110px;
+  padding-bottom: 10px;
+  font-family: serif;
+}
+
+.con p {
+  margin-top: -5px;
+  margin-right: 120px;
+  text-align: right;
+  font-size: 38px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: serif;
+}
+
+.container a {
+  align-self: center;
+  margin-top: 40px;
+  padding: 15px 20px;
+  background: red;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  width: 15%;
+  cursor: pointer;
+  border-radius: 7px;
+  font-size: 18px;
+  margin-left: 25px;
+}
+
+.container a:hover {
+  background: purple;
+}
+
+div.cont {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+
+div.header {
+  padding: 5px;
+  margin-left: 70px;
+  margin-bottom: 10px;
+}
+
+div.header h1 {
+  color: #000;
+  font-size: 33px;
+  margin-right: 70px;
+  font-family: serif;
+}
+
+div.header p {
+  font-size: 15px;
+  text-align: end;
+  color: #000;
+  font-weight: bold;
+  margin-right: 100px;
+}
+
+.actions {
+  margin-left: 60%;
+  margin-top: 15px;
+}
+
+div.intro h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
+  margin: 10%;
+
+
+}
+
+button {
+  font-family: serif;
+  color: black;
+  background-color: #ffffff;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 20px;
+  margin-left: 10%;
+  font-size: 14pt;
+  border-radius: 16px;
+  border: 3px solid #4E6588;
+}
+
+.bodi {
+  background-color: #DDEAFC;
+}
+
+
+.form {
+  max-width: 400px;
+  margin: 100px auto;
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #5F89BA;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group button {
+  padding: 10px 20px;
+  background-color: #769DCB;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-group button:hover {
+  background-color: #285f9f;
+  color: #ffffff;
+}
+
+.form-group .switch {
+  display: block;
+  margin-top: 10px;
+}
+
+.form-group .switch a {
+  color: #999;
+  text-decoration: none;
+}
+
+.form-group .switch a:hover {
+  text-decoration: underline;
+}
+
+#cadastre {
+  color: #5F89BA;
+  font-size: 28px;
+}
+
+.tex {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
+  margin: 5%;
+  margin-left: 15%;
+}
+
+#obs {
+  font-family: serif;
+  font-size: 20px;
+  margin: 2%;
+  margin-left: 21%;
+
+}
+
+div.bto {
+  padding: 150px;
+  background-color: white;
+}
+
+.bu {
+  margin-left: 20%;
+}
+
+.led {
+  font-family: serif;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 5%;
+  color: #5F89BA;
+}
+
+.formulario {
+  font-size: 25px;
+  text-align: center;
+  font-family: serif;
+  color: #365578;
+  margin: 2%;
+  background-color: #d6e9ff;
+}
